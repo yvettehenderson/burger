@@ -1,6 +1,6 @@
-INSERT INTO burgers (burger_name, devoured) VALUES ('Cheese', FALSE);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Hamburger', FALSE);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Breakfast', FALSE);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Swiss', FALSE);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Yvette', FALSE);
-INSERT INTO burgers (burger_name, devoured) VALUES ('None', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Test 1', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Test 2', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Test 3', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Test 4', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Test 5', FALSE);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Test 6', FALSE);

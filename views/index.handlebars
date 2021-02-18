@@ -5,7 +5,7 @@
 		</div>
 		<br>
 		<br>
-	<div class="col-sm-6 text-center" class="task">
+	<div class="col-sm-6 text-center">
 			<div class="row">
 			  {{#each burger_data}}
 			  	{{#unless this.devoured}}
@@ -21,7 +21,7 @@
 			</div>
 		</div>
 		<br>
-		<div class="col-sm text-center" class="task">
+		<div class="col-sm text-center">
 			  {{#each burger_data}}
 			  	{{#if this.devoured}}
 			  		<input class="form-control" type="text" placeholder="{{this.id}} . {{this.burger_name}}"
@@ -36,7 +36,7 @@
 		<div class="col-sm text-center enter_section">
 			<form action="/burgers/create" method="POST">
 				<input type="text" class="form-control" name="burger_name" value="" id="enter_text">
-				<button type="submit" class="btn btn-primary" id="text-enter-button">Click</button>
+				<button type="click" class="btn btn-primary" id="text-enter-button">Click</button>
 			</form>
 			<p>Enter a burger and "click " away.</p>
 		</div>
